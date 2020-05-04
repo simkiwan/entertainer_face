@@ -1,0 +1,263 @@
+body {
+    font-family: 'Jua', sans-serif;
+    background-color: #ffffff;
+}
+
+.file-upload {
+    /*vw:화면크기에 비례하게 크기 조절*/
+    padding: 13% 3%;
+    border-radius: 10px;
+    border: solid 1.5px #f6f7fa;
+    background-color: #f6f7fa;
+}
+
+.file-upload-btn {
+    width: 100%;
+    margin: 0;
+    color: #fff;
+    background: #1fb264;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #15824b;
+    transition: all 0.2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.file-upload-btn:hover {
+    background: #1aa059;
+    color: #ffffff;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.file-upload-btn:active {
+    border: 0;
+    transition: all 0.2s ease;
+}
+
+.file-upload-content {
+    display: none;
+    text-align: center;
+}
+
+.file-upload-input {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.image-upload-wrap {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    object-fit: contain;
+    border-radius: 10px;
+    border: dashed 1.5px #35465d;
+    background-color: #ffffff;
+}
+
+.image-dropping,
+.image-upload-wrap:hover {
+    background-color: #35465d82;
+    border: 1.5px dashed #ffffff;
+}
+
+.image-title-wrap {
+    padding: 0 15px 15px 15px;
+    color: #222;
+}
+
+.drag-text {
+    text-align: center;
+}
+
+.drag-text h3 {
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.file-upload-image {
+    max-height: 60%;
+    max-width: 60%;
+    margin: auto;
+    padding: 10px;
+}
+.upload-text {
+    width: 55%;
+    font-size: 1.5rem;
+    line-height: 1.53;
+    text-align: center;
+    color: #35465d;
+    margin: 0 auto;
+}
+
+.remove-image {
+    width: 200px;
+    margin: 0;
+    color: #fff;
+    background: #343a40;
+    border: none;
+    padding: 5px;
+    border-radius: 30px;
+    transition: all 0.2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.remove-image:hover {
+    background: #343a40;
+    color: #ffffff;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.remove-image:active {
+    border: 0;
+    transition: all 0.2s ease;
+}
+
+.nav-distance {
+    /*심심한 대학생 틀 크기 조절*/
+    padding: 2.1% 7.7%;
+}
+
+.navbar-light .navbar-brand {
+    font-family: 'Jua', sans-serif;
+    line-height: 1.68;
+    text-align: left;
+    color: #35465d;
+}
+
+.navbar-light .navbar-toggler {
+    /*더보기란 테두리 삭제*/
+    border-color: #ffffff;
+}
+
+.section {
+    /*위 아래 간격 설정*/
+    margin-top: 100px;
+}
+
+.title {
+    /*제목 크기 설정*/
+    font-family: 'Jua', sans-serif;
+    line-height: 1.67;
+    text-align: center;
+    color: #35465d;
+}
+
+.subtitle {
+    /*부제목 크기 설정*/
+    font-family: 'Jua', sans-serif;
+    line-height: 1.53;
+    text-align: center;
+    color: #35465d;
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    /*화면이 줄어들때 글씨도 줄어들도록*/
+    html {
+        font-size: 10px;
+    }
+    .navbar-brand {
+        font-size: 2rem;
+    }
+}
+.animal-explain {
+    /*제일 높게 나온 상의 특징 출력*/
+    font-size: 1.5rem;
+    width: 53%;
+    margin: 0 auto;
+}
+.result-messege {
+    /*제일 높게 나온 상의 직업 출력*/
+    font-size: 2rem;
+}
+
+.actor-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(27, 175, 234, 1);
+    line-height: 1.53;
+}
+.actor-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(27, 175, 234, 0.2);
+}
+
+.bar-container {
+    height: 2.7rem;
+}
+
+.idol-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(117, 204, 84, 1);
+}
+.idol-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(117, 204, 84, 0.2);
+}
+
+.comedian-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(251, 176, 59, 1);
+}
+.comedian-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(251, 176, 59, 0.2);
+}
+
+.model-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(49, 132, 155, 1);
+}
+.model-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(49, 132, 155, 0.2);
+}
