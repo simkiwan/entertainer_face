@@ -5,4 +5,5 @@ User-Agent : Googlebot
 User-Agent : Yeti
 User-Agent : Daumoa
 Allow : /
+Sitemap: https://entertainerface.com/sitemap,xml
 Disallow : /admin/
