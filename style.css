@@ -135,6 +135,7 @@ body {
     font-family: 'Jua', sans-serif;
     line-height: 1.68;
     text-align: left;
+    font-size: 1.5rem;
     color: #35465d;
 }
 
@@ -260,4 +261,23 @@ body {
     border-radius: 10px;
     width: 100%;
     background-color: rgba(49, 132, 155, 0.2);
+}
+.youtube-link {
+    font-size: 1rem;
+    line-height: 1.71;
+    text-align: center;
+    color: #f73737;
+    text-decoration: underline;
+}
+.youtube-icon {
+    width: 30px;
+    height: 27.262px;
+}
+.ad_banner{
+    width: 320px;
+    margin: 0 auto;
+}
+.ad_banner2{
+    width: 300px;
+    margin: 0 auto;
 }
