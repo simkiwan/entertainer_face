@@ -1,3 +1,3 @@
-User-agent: Yeti
+User-agent: *
 Allow: /
 Sitemap: https://entertainerface.com/sitemap,xml
